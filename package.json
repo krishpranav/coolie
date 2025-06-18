@@ -1,7 +1,9 @@
 {
   "name": "@coolie/root",
   "version": "1.0.0",
+  "private": true,
   "workspaces": [
+    "packages/eslint-plugin-coolie"
   ],
   "scripts": {
     "prepare": "husky install && yarn build && rm node_modules/vite/index.d.cts",
