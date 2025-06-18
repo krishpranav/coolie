@@ -1,0 +1,9 @@
+{
+    "include": [
+        "src/**/*.ts",
+        "Coolie.d.ts"
+    ],
+    "compilerOptions": {
+        "skipLibCheck": true
+    },
+}

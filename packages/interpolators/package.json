@@ -1,0 +1,26 @@
+{
+    "name": "coolie-interpolators",
+    "private": true,
+    "version": "0.0.1",
+    "description": "Directory containing Rune interpolators",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/krishpranav/coolie.git",
+      "directory": "packages/interpolators"
+    },
+    "scripts": {
+      "build": "exit 0",
+      "test": "jest",
+      "test:watch": "JEST_WATCH_TESTS=1 jest --watch",
+      "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+      "@types/jest": "29.5.5",
+      "jest": "29.7.0",
+      "jest-environment-jsdom": "29.7.0",
+      "ts-jest": "29.1.1",
+      "typescript": "5.2.2"
+    }
+}
+  

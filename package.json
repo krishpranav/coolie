@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "workspaces": [
-    "packages/eslint-plugin-coolie"
+    "packages/eslint-plugin-coolie",
+    "packages/interpolators"
   ],
   "scripts": {
     "prepare": "husky install && yarn build && rm node_modules/vite/index.d.cts",
